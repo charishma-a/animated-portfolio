@@ -66,7 +66,12 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>LinkedIn</h2>
-          <a href="/https://www.linkedin.com/in/charishma-a-25813a214/"><h2>Charishma</h2></a>
+          <a 
+          target="_blank"
+          rel="noopener noreferrer" 
+          href="https://www.linkedin.com/in/charishma-a-25813a214/"
+          >
+            <h2>Charishma</h2></a>
         </motion.div>
       </motion.div>
       <div className="formContainer">
